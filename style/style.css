@@ -67,3 +67,27 @@ body {
     padding: 0 5px;
     border-radius: 3px;
 }
+
+.footer {
+    position: absolute;
+    top: 44em;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    color: white;
+    cursor: default;
+}
+
+.footer p {
+    padding: 10px;
+    margin-top: -10px;
+}
+  
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+  
+.footer a:hover {
+      color: #dedede;
+}
