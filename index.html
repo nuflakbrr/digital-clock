@@ -1,45 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Digital Clock | Naufal Akbar Nugroho</title>
-    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style/style.css">
-</head>
-<body onload="initClock()">
-    <!--<h1 class="greeting">Good Morning!</h1>-->
+
+    <!-- MY CSS -->
+    <link rel="stylesheet" href="style/style.css" />
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="assets/favicon_baru.ico" type="image/x-icon" />
+    <link rel="icon" href="assets/favicon_baru.ico" type="image/x-icon" />
+  </head>
+  <body onload="initClock()">
+    <!-- greeting -->
+    <h1 id="greeting"></h1>
+
     <!--Clock Start-->
-
     <div class="datetime">
-        <div class="date">
-            <span id="dayname">Day</span>,
-            <span id="month">Month</span>
-            <span id="daynum">00</span>,
-            <span id="year">Year</span>
-        </div>
-        <div class="time">
-            <span id="hour">00</span>:
-            <span id="minutes">00</span>:
-            <span id="seconds">00</span>
-            <span id="period">AM</span>
-        </div>
+      <div class="date">
+        <span id="dayname">Day</span>,
+        <span id="month">Month</span>
+        <span id="daynum">00</span>,
+        <span id="year">Year</span>
+      </div>
+      <div class="time">
+        <span id="hour">00</span>: <span id="minutes">00</span>:
+        <span id="seconds">00</span>
+        <span id="period">AM</span>
+      </div>
     </div>
-
     <!-- Clock end -->
 
     <!-- footer -->
     <footer class="footer">
-        <p>
-            2021 | Made with <span style="color: #e25555;">&#9829;</span> by
-            <a href="https://www.instagram.com/kbrnugroho/" target="_blank">
-              Naufal Akbar Nugroho</a>
-        </p>
+      <p>
+        2021 | Made with <span style="color: #e25555">&#9829;</span> by
+        <a href="https://www.instagram.com/kbrnugroho/" target="_blank"> Naufal Akbar Nugroho</a>
+      </p>
     </footer>
     <!-- footer end -->
 
-    <script src="index.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
