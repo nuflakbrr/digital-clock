@@ -1,6 +1,3 @@
-// alert
-// alert("Link ini dilarang keras dibagikan ke orang lain, karena aku pengennya cuma kamu yang tau");
-
 // clock start
 function updateClock() {
   var now = new Date();
@@ -21,8 +18,10 @@ function updateClock() {
     var greeting = "Good Morning, " + name + "!";
   } else if (hou >= 12 && hou <= 18) {
     var greeting = "Good Afternoon, " + name + "!";
-  } else if (hou >= 18 && hou <= 24) {
+  } else if (hou >= 18 && hou <= 21) {
     var greeting = "Good Evening, " + name + "!";
+  } else if (hou >= 21 && hou <= 24) {
+    var greeting = "Good Night, " + name + "!";
   }
 
   document.getElementById("greeting").innerHTML = greeting;
